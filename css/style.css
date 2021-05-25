@@ -27,13 +27,28 @@ body{
    background-color: #f1f5fa;
 }
 /*main*/
-main{
-   display: inline-block;
-}
-#container{
-   border-radius: 20px;
-   width:80%;
+.container{
+   width:70%;
    height: 100%;
    margin: 0 auto;
    background-color: white;
+   margin-top: 3px;
+}
+
+/* Section Add Task */
+#AddTask-section{
+   height: 50px;
+   margin-top: 50px;
+   
+}
+
+.btn{
+   margin:10px 5px;
+}
+.shape-first{
+   border-radius: 10px 10px 0px 0px;
+}
+
+.shape-second{
+   border-radius: 0px 0px 10px 10px;
 }
