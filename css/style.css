@@ -100,3 +100,42 @@ ul{
 .fa-times-circle{
    color: red;
 }
+
+/* Tag */
+.tag{
+   display: inline-block;
+   border-radius: 15px;
+   margin-left: 5px;
+   padding: 5px 7px;
+   font-size: 10px;
+   border: solid 0.5px #4dabf7;
+   line-height: 16px;
+
+   font-weight: 800;
+   color: white;
+}
+
+.purple{
+   background-color: #7b68ee;
+   border: solid 0.5px #7b68ee;
+}
+
+.green{
+   background-color: mediumaquamarine;
+   border: solid 0.5px mediumaquamarine;
+}
+
+.orange{
+   background-color: orange;
+   border: solid 0.5px orange;
+}
+
+.pink{
+   background-color: palevioletred;
+   border: solid 0.5px palevioletred;
+}
+
+.lime{
+   background-color: lightgreen;
+   border: solid 0.5px lightgreen;
+}
