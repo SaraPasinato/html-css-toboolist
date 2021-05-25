@@ -73,6 +73,7 @@ body{
 }
 
 /* section new task*/
-#new-task{
-  
+h3{
+   font-family: sans-serif;
+   font-weight: 700;
 }
