@@ -42,13 +42,37 @@ body{
    
 }
 
-.btn{
-   margin:10px 5px;
+.box{
+   display: inline-block;
+   margin-top: 10px;
+   border-radius: 5px;
+   margin-left: 2px;
+
+   padding: 5px;
+   
 }
 .shape-first{
    border-radius: 10px 10px 0px 0px;
+   padding-left: 50px;
 }
 
 .shape-second{
    border-radius: 0px 0px 10px 10px;
+   padding: 50px;
+}
+
+.blue{
+   color:white;
+   background-color: #4dabf7;
+   border: solid 0.5px #4dabf7;
+}
+
+.grey{
+   color:gray;
+   border: solid 0.5px gray;
+}
+
+/* section new task*/
+#new-task{
+  
 }
