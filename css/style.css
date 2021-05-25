@@ -1,5 +1,39 @@
+
 *{
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+}
+
+/* header */
+header{
+   line-height: 80px;
+   background-color: white;
+}
+#logo-text{
+
+   font-size: 50px;
+   font-family: sans-serif;
+   font-weight:800;
+
+}
+#logo{
+  margin-left: 20px;
+  margin-top: 15px;
+  vertical-align:text-bottom;
+  
+}
+body{
+   background-color: #f1f5fa;
+}
+/*main*/
+main{
+   display: inline-block;
+}
+#container{
+   border-radius: 20px;
+   width:80%;
+   height: 100%;
+   margin: 0 auto;
+   background-color: white;
 }
