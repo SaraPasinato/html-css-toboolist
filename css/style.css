@@ -3,6 +3,7 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   font-family: sans-serif;
 }
 
 /* header */
@@ -72,8 +73,19 @@ body{
    border: solid 0.5px gray;
 }
 
-/* section new task*/
-h3{
+h2{
    font-family: sans-serif;
    font-weight: 700;
+}
+
+ul{
+   list-style-type:none;
+   padding-left:20px;
+   line-height: 40px;
+}
+
+.fa-check-circle-o{
+   color: green;
+   font-size: 20px;
+   margin-right:5px;
 }
