@@ -26,6 +26,7 @@ header{
 }
 body{
    background-color: #f1f5fa;
+   margin-bottom:30px;
 }
 /*main*/
 .container{
@@ -39,7 +40,7 @@ body{
 /* Section Add Task */
 #AddTask-section{
    height: 50px;
-   margin-top: 50px;
+   margin-top: 30px;
    
 }
 
@@ -48,8 +49,8 @@ body{
    margin-top: 10px;
    border-radius: 5px;
    margin-left: 2px;
-
-   padding: 5px;
+   padding: 10px;
+   font-size: 12px;
    
 }
 .shape-first{
@@ -73,19 +74,29 @@ body{
    border: solid 0.5px gray;
 }
 
+/*sections Todos*/
 h2{
    font-family: sans-serif;
    font-weight: 700;
 }
 
+.todo{
+   margin-top:20px;
+}
 ul{
    list-style-type:none;
    padding-left:20px;
    line-height: 40px;
 }
 
-.fa-check-circle-o{
-   color: green;
+.fa{
    font-size: 20px;
    margin-right:5px;
+}
+.fa-check-circle-o{
+   color: green;
+}
+
+.fa-times-circle{
+   color: red;
 }
